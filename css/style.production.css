@@ -30,6 +30,7 @@ header {
 .profile {
   max-width: 88%;
   margin: 20px auto;
+  margin-bottom:20px;
   text-align: center;
   padding: 60px;
   background-color: #ffffff;
