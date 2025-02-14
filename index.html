@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />    
+    <link rel="shortcut icon" href="./img/favicon-32x32.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Moderustic:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.production.css" />
+    <title> Ivan Cortes Portfolio </title>
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand" href="#">Ivan Cortés Portfolio</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="contactDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Contact
+              </a>
+              <div class="dropdown-menu" aria-labelledby="contactDropdown">
+                <a class="dropdown-item" href="mailto:ivancortes@hotmail.com"
+                  >Email</a
+                >
+                <a class="dropdown-item" href="tel:+17608******">Call</a>
+                <a
+                  class="dropdown-item"
+                  href="https://github.com/ivencomur"
+                  target="_blank"
+                  >GitHub</a
+                >
+                <a
+                  class="dropdown-item"
+                  href="https://x.com/IVENCOMUR"
+                  target="_blank"
+                  >X (formerly Twitter)</a
+                >
+                <a
+                  class="dropdown-item"
+                  href="https://www.linkedin.com/in/ivan-cortes-murcia-22053953"
+                  target="_blank"
+                  >LinkedIn</a
+                >
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main class="profile container">
+      <h1 class="header__title text-center">
+        Welcome to my JavaScript project!
+      </h1>
+      <div class="text-center">
+        <img
+          src="img/pokelogo.svg"
+          width="auto"
+          height="auto"
+          alt="Pokémon logo"
+        />
+      </div>
+      <ul class="pokemon-list list-group"></ul>
+
+      <div
+        class="modal"
+        id="pokemonModal"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="pokemonModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="pokemonModalLabel"></h5>
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <img id="modal-image" class="img-fluid mb-3" alt="Pokemon" />
+              <p id="modal-height"></p>
+              <p id="modal-types"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="page-footer">
+      <br />
+      <br />
+      <h3>Ivan Cortés</h3>
+      <p>Lawrenceville, GA, USA</p>
+      <p>Tel: <a href="tel:+17608******">+17608******</a></p>
+      <a href="mailto:ivancortes@hotmail.com">ivancortes@hotmail.com</a>
+      <p>Find me on:</p>
+      <div class="social-media">
+        <a id="github-link" href="https://github.com/ivencomur" target="_blank"
+          ><img
+            src="./img/logo_github_icon.svg"
+            alt="Github"
+            width="30"
+            height="30"
+        /></a>
+        <a id="twitter-link" href="https://x.com/IVENCOMUR" target="_blank"
+          ><img
+            src="./img/xformertwittericon.svg"
+            alt="X former Twitter"
+            width="30"
+            height="30"
+        /></a>
+        <a
+          id="linkedin-link"
+          href="https://www.linkedin.com/in/ivan-cortes-murcia-22053953"
+          target="_blank"
+          ><img
+            src="./img/linkedinicon.svg"
+            alt="LinkedIn"
+            width="30"
+            height="30"
+        /></a>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
