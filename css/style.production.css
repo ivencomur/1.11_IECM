@@ -125,7 +125,7 @@ footer .social-media a:hover img {
 }
 
 .modal {
-  position: fixed;
+  position:fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -139,8 +139,8 @@ footer .social-media a:hover img {
   float: right;
   border: #067f95;
   background: none;
-  font-size: 35px;
-  cursor: pointer;
+  font-size: 30px;
+  cursor: auto;
   padding: 4px 4px;
   background-color: #067f95;
   color: white;
@@ -156,7 +156,7 @@ footer .social-media a:hover img {
   margin: 10px auto;
   width: 95%;
   height: auto;
-  display: block;
+  display:block;
 }
 
 .modal p {
